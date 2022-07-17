@@ -1,0 +1,38 @@
+<!DOCTYPE html> 
+<html> 
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videoplayer</title>
+    <link rel="shortcut icon" href="fav.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body> 
+    <h1>MY VIDEO</h1>
+<div class="vidBox" id="contain">
+
+  <video id="v1" class="vid"style="height: 45vh; width:60vw"  muted controls="true" autoplay >
+      <source src="./videos/animals.mp4.mp4" type="video/mp4">
+  </video>
+
+
+  <video id="v2" class="vid2" style="display:none;height: 45vh; width:60vw"  autoplay muted controls="true" >
+    <source src="./videos/ad.mp4" type="video/mp4">
+  </video>
+
+</div>
+
+<button id="replay">Replay</button>
+
+<h3>[ After 10 seconds (as set) the next video will play automatically and when it ends the first video will be resumed from where it was stopped . On clicking the replay button the whole process will be repeated . First video will be played first then  second video and then first video again from where it was stopped.]</h3>
+<h5>By Shikha Patel</h5>
+
+
+
+
+<script src="index.js"></script>
+
+</body> 
+</html> 
